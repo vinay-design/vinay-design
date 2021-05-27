@@ -32,7 +32,7 @@
        - name: Download the NodeJS code from the GitRepo
          become: yes
          git:
-            repo: 'https://{{gituser}}:{{gitpass}}@github.com/AKSarav/SampleNodeApp.git'
+            repo: 'https://{{gituser}}:{{gitpass}}@https://github.com/vinay-design/vinay-design.git'
             dest: "{{ destdir }}"
 
        - name: Change the ownership of the directory
